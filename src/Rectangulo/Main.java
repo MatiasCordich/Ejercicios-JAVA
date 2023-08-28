@@ -1,21 +1,25 @@
 package Rectangulo;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) throws Exception {
-        Rectangulo rec1;
+        Scanner sc = new Scanner(System.in);
 
-        rec1 = new Rectangulo();
-        Rectangulo rec2 = new Rectangulo();
+        Rectangulo jorge = new Rectangulo();
 
-        rec1.base = 2;
-        rec1.altura = 5;
+        System.out.print("Ingrese la base: ");
+        jorge.base = sc.nextDouble();
+        System.out.println("---------------------");
+        System.out.print("Ingrese la altura: ");
+        jorge.altura = sc.nextDouble();
+        System.out.println("---------------------");
+        System.out.println("La base es: " + jorge.base);
+        System.out.println("La altura es: " + jorge.altura);
+        System.out.println("---------------------");
+        System.out.println("El perimetro es: " + jorge.perimetro());
+        System.out.println("El area es: " + jorge.area());
 
-        rec2.base = 6;
-        rec2.altura = 4;
-
-        System.out.println("Rectangulo 1");
-        System.out.println("Base: " + rec1.base);
-        System.out.println(rec1.area());
-        System.out.println(rec1.perimetro());
+        sc.close();
     }
 }
