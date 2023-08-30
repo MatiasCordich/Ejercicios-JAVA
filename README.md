@@ -6,7 +6,7 @@ Ejercicios de la materia de Programacion II (Java) de la Facultad de Ingenieria 
 
 Los ejercicios se encontraran en la siguiente carpeta
 
-- `src`: aca estaran todos los ejercicios que se iran subiendo
+- `src`: aca estaran todos los ejercicios que se iran subiendo.
 
 
 
